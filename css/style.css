@@ -8,6 +8,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body{
   background: #FFD1E3;
+  width: 100%;
 }
 header{
   background: #de5a8d;
@@ -39,7 +40,6 @@ header{
 .nav_link:hover{
   color: #515403;
   font-weight: 900;
-  font-size: large;
 }
 #nav_link{
   background-color: #08179e;
@@ -54,7 +54,10 @@ header{
 #nav_link:hover{
   color: #515403;
   font-weight: 900;
-  font-size: large;
+}
+.nav_item ul{
+  list-style: none;
+  display: flex;
 }
 .fa{
   text-decoration: none;
@@ -80,17 +83,19 @@ header{
   background: #35255c;
   border-radius: 20px;
   font-weight: 900;
-  font-size: large;
 }
 .img{
   display: inline-block;
-  width: 30px;
-  height: 40px;
+  width: 600px;
+  height: 400px;
   padding-top: 30px;
+  padding-right: 50px;
+  padding-left: 30px;
 }
 .container{
   background-color: #f89fc1;
   padding: 72px 0;
+
 }
 main{
   color: #070707;
@@ -111,21 +116,21 @@ main{
 .info{
   display: inline-block;
   padding-bottom: 10px;
-  margin: 0 15px;
+  padding-left:50px;
   
 }
 .sec{
   display: inline-block;
-  margin-right: 650px;
+  margin-right: 550px;
   margin-top: 50px;
   margin-bottom: 100px;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 .sec2{
   display: inline-block;
-  position: relative; left: 550px;
-  margin-right: 60%;
-  margin-top: 50px;
+  margin: 550px;
+  margin-right: 50px;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 .sec3{
@@ -133,7 +138,7 @@ main{
   margin-right: 650px;
   margin-top: 50px;
   margin-bottom: 100px;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 .sec4{
   display: flex;
@@ -158,10 +163,11 @@ footer{
 }
 .footer-contact{
   float: right;
-  margin-left: 300px;
+  margin-left: 270px;
 }
 .footer{
   margin-top: 100px;
+  margin-left: 20px;
 
 }
 .p{
